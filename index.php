@@ -16,4 +16,3 @@
     
     $division=$operacion->getDivision();
     echo "Division:".$division;
-?>
