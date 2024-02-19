@@ -15,7 +15,7 @@
             return $datos="Datos de usuario: <br>
             Nombre: {$this->strNombre}<br>
             CI: {$this->intCI}<br>
-            Edad: {$this->intEdad}";
+            Edad: {$this->intEdad}<br>";
         }
     }
 
