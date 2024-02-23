@@ -24,3 +24,4 @@ $arrInfMesa=$objMesa->getInfoProducto();
 print_r('<pre>');
 print_r($arrInfMesa);
 print_r('</pre>');
+echo '<br>';
