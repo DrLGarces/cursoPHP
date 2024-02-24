@@ -21,6 +21,17 @@ class Empleado extends Persona{
         return $this->strPuesto;
     }
 
+    public function getDatosPersonales()
+    {
+        $datos="
+        <h2>Datos Personales</h2>
+        CI:{$this->intCI}<br>
+        Nombre:{$this->strNombre}<br>
+        Edad:{$this->intEdad}<br>
+        ";
+        return $datos;
+    }
+
 }
 
 

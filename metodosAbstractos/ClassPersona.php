@@ -1,5 +1,5 @@
 <?php 
-    class Persona{
+    abstract class Persona{
         public $intCI;
         public $strNombre;
         public $intEdad;
@@ -11,13 +11,7 @@
         }
 
 
-        public function getDatosPersonales(){
+        abstract public function getDatosPersonales();
 
-            return $datos="Datos de usuario: <br>
-            Nombre: {$this->strNombre}<br>
-            CI: {$this->intCI}<br>
-            Edad: {$this->intEdad}<br>";
-
-        }
     }
 

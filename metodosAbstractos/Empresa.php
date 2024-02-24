@@ -1,7 +1,7 @@
 <?php 
 
 require_once("ClassEmpleado.php");
-require_once("ClassCliente.php");
+// require_once("ClassCliente.php");
 
 
 $objPersona=new Persona(28566,'luis',22);
