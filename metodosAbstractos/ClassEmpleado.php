@@ -21,6 +21,15 @@ class Empleado extends Persona{
         return $this->strPuesto;
     }
 
+    public function setMensaje(string $Mensaje)
+    {
+        $this->strMensaje=$Mensaje;
+    }
+
+    public function getMensaje():string{
+        return "{$this->strMensaje} "."{$this->strNombre}";
+    }
+
     public function getDatosPersonales()
     {
         $datos="
@@ -31,6 +40,9 @@ class Empleado extends Persona{
         ";
         return $datos;
     }
+
+
+
 
 }
 

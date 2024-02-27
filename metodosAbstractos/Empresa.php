@@ -4,14 +4,16 @@ require_once("ClassEmpleado.php");
 // require_once("ClassCliente.php");
 
 
-$objPersona=new Persona(28566,'luis',22);
+$objEmpleado=new Empleado(28566,'luis',22);
+$objEmpleado->setPuesto('gerente');
+$objEmpleado->setMensaje("holiwiris");
+echo $objEmpleado->getMensaje();
 echo $objEmpleado->getDatosPersonales();
 
 
 
-// $objEmpleado=new Empleado(28566,'luis',22);
-// $objEmpleado->setPuesto('gerente');
-// echo $objEmpleado->getDatosPersonales();
+
+ // echo $objEmpleado->getDatosPersonales();
 // echo $objEmpleado->getPuesto();
 
 
