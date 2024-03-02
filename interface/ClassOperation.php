@@ -16,7 +16,7 @@ class Calcular implements Operation, OperacionesBasicas{
     }
 
     public function op_basicas(float $num1, float $num2, string $operacion){
-
+            
         if($operacion=='+'){
             $result= $num1+$num2;
         }elseif ($operacion=='-'){
@@ -26,8 +26,8 @@ class Calcular implements Operation, OperacionesBasicas{
         }elseif ($operacion=='/'){
             $result=$num1/$num2;
         }else{
-            $result="Operacion no valida";
-            return $result;
+            $result="Operacion no valida"; 
         }
+        return $result;
     }
 }

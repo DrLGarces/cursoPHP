@@ -2,9 +2,10 @@
 
 require_once('ClassOperation.php');
 
-$objRaiz= new Calcular();
-$objPotencia=new Calcular();
+
+$objraiz=new Calcular();
+echo $objraiz->raizCuadrada(10)."<br>";
 
 
-print_r($objRaiz->op_basicas(10,5,'+')."<br>");
-echo $objPotencia->op_basicas(10,5,'-')."<br>";
+$objOperacioenes=new Calcular();
+echo $objOperacioenes->op_basicas(2,3,'+');
